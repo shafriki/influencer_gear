@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>influencer-gear</title>
+    <title>Influencer Gear</title>
 
     <!-- favicon -->
-     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+     <link rel="shortcut icon" href="./images/camera.png" type="image/x-icon">
 
      <!-- tailwondCSS and daisyUI CDN link -->
       <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
       <script src="https://cdn.tailwindcss.com"></script>
+
+      <!-- font awasome -->
+      <script src="https://kit.fontawesome.com/7043c081d1.js" crossorigin="anonymous"></script>
 
       <!-- font family -->
       <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -27,7 +30,21 @@
 <body class="poppins">
 
     <!-- header section start -->
-     <header>
+     <header class="max-w-screen-xl mx-auto">
+
+      <!-- navbar content -->
+       <nav class="flex items-center justify-between py-8 ">
+        <i class="fa-solid fa-bars block lg:hidden pl-3"></i>
+        <h6 class="text-2xl font-bold">Influencer products</h6>
+        <div class="flex items-center gap-8 text-base font-semibold">
+          <a href="" class="hover:text-amber-500 transition-colors hidden lg:block">Home</a>
+          <a href="" class="hover:text-amber-500 transition-colors hidden lg:block">Products</a>
+          <a href="" class="hover:text-amber-500 transition-colors hidden lg:block">Sign up</a>
+          <a href="" class="hover:text-amber-500 transition-colors hidden lg:block">Log in</a>
+          <i class="fa-solid fa-magnifying-glass hover:text-amber-500 transition-colors hidden lg:block"></i>
+          <i class="fa-solid fa-cart-shopping hover:text-amber-500 transition-colors pr-3"></i>
+        </div>
+       </nav>
 
      </header>
     <!-- header section end -->
